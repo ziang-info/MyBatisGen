@@ -4,8 +4,8 @@
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">  
   
 <generatorConfiguration>  
-        <classPathEntry  
-            location="/Users/lattimore/Desktop/MyBatisGen/mysql-connector-java-5.1.47.jar" />  
+        <!--classPathEntry  
+            location="/Users/lattimore/Desktop/MyBatisGen/mysql-connector-java-5.1.47.jar" /-->  
         <context id="sqlserverTables" targetRuntime="MyBatis3">  
             <!-- 生成的pojo，将implements Serializable -->  
             <plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin>  
